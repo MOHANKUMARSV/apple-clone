@@ -1,0 +1,182 @@
+/* Media */
+/***********************************************/
+/* Below - 1350px / 16px = 84 (smaller-desktop)*/
+/***********************************************/
+@media (max-width: 84em) {
+    /* Hero Section */
+    .hero-text h1{
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .hero-text p{
+        margin-bottom: 8px;
+    }
+    .hero-text button{
+        font-size: 1rem;
+    }
+    /* tv produdt */
+    .tv-container{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem; ;
+    }
+    .desc{
+        font-size: 0.6rem;
+        margin-bottom: 0.8rem;
+    }
+    .subscription{
+        padding: 0.8rem 4rem;
+    }
+    .price{
+        font-size: 0.8rem;
+        color: #4d4d4d;
+    }
+    /* footer */
+    .sec1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.4rem;
+        margin-bottom: 2rem;
+        font-size: 0.6rem;
+    
+    }
+    .ff
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #4b4949;
+    transition: all 0.5s;
+    font-size: 0.5rem;
+}
+}
+
+/***********************************************/
+/* Below - 1200px / 16px = 75 (Landscape Tablets)*/
+/***********************************************/
+@media (max-width: 75em){
+    .hero-container{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        /* height:100vh */
+    }
+.hero-text h1{
+    font-size: 37px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-self: center;
+}
+.hero-text p{
+    font-size: 15px;
+    margin-bottom: 0.6rem;
+    justify-self:center;
+    align-items: center;
+}
+.hero-text button{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#0071e3;
+    color: white;
+    transition: all 1s;
+    font-size: 1rem;
+}
+.heading{
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgba(0,0, 0, 0.4);
+}
+}
+
+
+/***********************************************/
+/* Below - 940px / 16px = 58.75 ( Tablets)*/
+/***********************************************/
+@media (max-width: 59em) {
+    .hero-img{
+        display: none;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content: center;
+        /* height:100vh */
+    }
+.hero-text h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-self: center;
+}
+.hero-text p{
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    justify-self:center;
+    align-items: center;
+}
+.hero-text button{
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#0071e3;
+    color: white;
+    transition: all 1s;
+    font-size: 1rem;
+}
+   
+    .product-container{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 2.4rem;
+    }
+    .footer-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+    padding: 0rem 6rem;
+}
+}
+
+/***********************************************/
+/* Below - 700px / 16px = 44 (small Tablets)*/
+/***********************************************/
+@media (max-width: 44em) {
+    .sec1{
+        margin-right: 1rem;
+    }
+}
+
+/***********************************************/
+/* Below - 550px / 16px = 34 (Phone)*/
+/***********************************************/
+
+@media (max-width: 34em) {
+    .hero-img{
+        display: none;
+    }
+    
+}
